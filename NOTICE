@@ -1,0 +1,95 @@
+qiskit-experiments
+Copyright 2024 Guglielmo Padula
+
+This product includes software developed by IBM and the Qiskit community.
+
+Most of the Python files in this repository are copied or adapted, largely
+verbatim, from official Qiskit and IBM Quantum teaching material. That
+material is copyright IBM Corp. and the Qiskit contributors, and is licensed
+under the Apache License, Version 2.0. The original sources are listed below,
+with a direct link to the upstream file for each.
+
+Where the code has been modified, the modifications generally consist of
+converting notebook cells into standalone scripts, commenting out plotting
+calls, and minor renaming. The upstream material has since moved on to newer
+Qiskit primitive APIs; the copies here reflect the API as of roughly 2023, and
+in several cases the upstream lesson has been rewritten since.
+
+--------------------------------------------------------------------------
+Qiskit/documentation  (IBM Quantum Learning courses)
+https://github.com/Qiskit/documentation
+
+Dual-licensed: code, including code snippets in documentation examples, under
+Apache-2.0; content such as guides, tutorials and courses under CC BY-SA 4.0.
+
+  Course: Basics of Quantum Information -- Entanglement in action
+  learning/courses/basics-of-quantum-information/entanglement-in-action/qiskit-implementation.ipynb
+  https://github.com/Qiskit/documentation/blob/main/learning/courses/basics-of-quantum-information/entanglement-in-action/qiskit-implementation.ipynb
+    - teleportation.py
+    - superdense_coding.py
+    - chsh_game.py
+
+  Course: Variational Algorithm Design -- Instances and extensions
+  learning/courses/variational-algorithm-design/instances-and-extensions.ipynb
+  https://github.com/Qiskit/documentation/blob/main/learning/courses/variational-algorithm-design/instances-and-extensions.ipynb
+    - VQE.py
+    - VQD.py
+
+  Course: Variational Algorithm Design -- Cost functions
+  learning/courses/variational-algorithm-design/cost-functions.ipynb
+  https://github.com/Qiskit/documentation/blob/main/learning/courses/variational-algorithm-design/cost-functions.ipynb
+    - expectation_value.py
+
+--------------------------------------------------------------------------
+qiskit-community/qiskit-machine-learning
+https://github.com/qiskit-community/qiskit-machine-learning
+Copyright 2017 IBM and its contributors. Licensed under Apache-2.0.
+
+  docs/tutorials/12_quantum_autoencoder.ipynb
+  https://github.com/qiskit-community/qiskit-machine-learning/blob/main/docs/tutorials/12_quantum_autoencoder.ipynb
+    - quantun_autoencoder.py
+
+  docs/tutorials/12_qae_initial_point.json
+  https://github.com/qiskit-community/qiskit-machine-learning/blob/main/docs/tutorials/12_qae_initial_point.json
+    - 12_qae_initial_point.json  (redistributed unmodified)
+
+  docs/tutorials/04_torch_qgan.ipynb
+  https://github.com/qiskit-community/qiskit-machine-learning/blob/main/docs/tutorials/04_torch_qgan.ipynb
+    - qgan.py
+
+--------------------------------------------------------------------------
+qiskit-community/qiskit-algorithms
+https://github.com/qiskit-community/qiskit-algorithms
+Copyright 2017 IBM and its contributors. Licensed under Apache-2.0.
+
+  docs/tutorials/06_grover.ipynb
+  https://github.com/qiskit-community/qiskit-algorithms/blob/main/docs/tutorials/06_grover.ipynb
+    - grover.py
+
+--------------------------------------------------------------------------
+Qiskit/platypus  (the Qiskit Textbook; archived February 2024)
+https://github.com/Qiskit/platypus
+Licensed under Apache-2.0.
+
+The lessons that superseded these notebooks on IBM Quantum Learning have since
+been rewritten, so the closest match to the code here is the archived textbook
+rather than the current course.
+
+  notebooks/v2/algorithms/01.query-algorithms/quantum-query-algorithms.ipynb
+  https://github.com/Qiskit/platypus/blob/main/notebooks/v2/algorithms/01.query-algorithms/quantum-query-algorithms.ipynb
+    - deutsh_jozsa.py
+    - bernstein_vazirani.py
+    - simon.py
+
+  notebooks/v2/algorithms/03.phase-estimation/phase-estimation-and-factoring.ipynb
+  https://github.com/Qiskit/platypus/blob/main/notebooks/v2/algorithms/03.phase-estimation/phase-estimation-and-factoring.ipynb
+    - phase_est.py
+    - shor.py
+
+  notebooks/v2/quantum-machine-learning/vqc.ipynb
+  https://github.com/Qiskit/platypus/blob/main/notebooks/v2/quantum-machine-learning/vqc.ipynb
+    - quantum_classification_manual.py
+
+--------------------------------------------------------------------------
+This repository is not affiliated with, endorsed by, or maintained by IBM
+or the Qiskit project.
